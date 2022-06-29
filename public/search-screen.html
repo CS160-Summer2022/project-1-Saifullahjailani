@@ -18,24 +18,15 @@
 <body class="home-screen">
  
   <div class="map-box">
-    
-  </div>
-
-  <div class="search-box">
-    <div>
-      <input type="text" class="searh-bar" placeholder="Search">
-    </div>
-    <div class="search-icon">
-      <button class="compare-btn"><span class="material-symbols-outlined">search</span></button>
-    </div>
+    <div class="map"></div>
   </div>
 
   <div class="simple-box">
     <div class="rating" id="rating-box">
-
+      
     </div>
-    <div class="simple-box-grid">
-
+    <div id="simple-grid-i">
+      
     </div>
   </div>
 
@@ -62,10 +53,12 @@
 
   <!-- Bootstrap Script AIzaSyABACZfJz2mZbS7CvOx3sz8HH4p91LNQkE -->
   <script type="module" src="index.js"></script>
-  <!--Google Map-->
+  <script src="./scripts/json-loader.js"></script>
+  <!--Google  Map-->
   <script type="module" src="scripts/map.js"></script>
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABACZfJz2mZbS7CvOx3sz8HH4p91LNQkE&callback=initMap&v=weekly"></script>
+   
 </body>
 
 </html>

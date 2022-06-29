@@ -3,10 +3,6 @@
     top:40vh ;
 }
 
-.map-box{
-
-    background-color: red;
-}
 
 .simple-box{
     position: fixed;
@@ -68,4 +64,15 @@
     color:red;
     font-weight: bold;
 
+}
+
+#simple-grid-i{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    justify-items: center;
+}
+
+.simple-grid-font{
+    color: w;
 }

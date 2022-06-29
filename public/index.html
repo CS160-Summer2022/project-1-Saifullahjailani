@@ -14,9 +14,9 @@
 
 <!-- you can also specify styles straight in html! Let's use Verdana on this page.-->
 
-<body class="home-screen">
+<body class="home-screen" id="b">
  
-  <div class="warning">
+  <div class="warning" id="warning-i">
     <p class="header">
       Warning
     </p>
@@ -30,7 +30,7 @@
     </ui>
   </div>
 
-  <div class="legend">
+  <div class="legend" id="legend-i">
     <p class="header">
       Legends
     </p>
@@ -56,19 +56,19 @@
   </div>
 
   <div class="map-box">
-    
+    <div class="map"></div>
   </div>
 
-  <div class="search-box">
+  <div class="search-box" id="search-box-i">
     <div>
       <input type="text" class="searh-bar" placeholder="Search" id="search-bar">
     </div>
     <div class="search-icon">
-      <button class="compare-btn" id="search-click" onclick="searchClicked()"><span class="material-symbols-outlined">search</a></span></button>
+      <button class="compare-btn" id="search-click" onclick="searchClicked()"><span class="material-symbols-outlined">search</span></button>
     </div>
   </div>
 
-  <div class="home-compare-btn">
+  <div class="home-compare-btn" id="comp-box-i">
     <button class="compare-btn">Compare</button>
   </div>
 
@@ -80,7 +80,7 @@
   <!-- Bootstrap Script AIzaSyABACZfJz2mZbS7CvOx3sz8HH4p91LNQkE -->
   <script type="module" src="index.js"></script>
   <!--Google Map-->
-  <script type="module" src="scripts/map.js"></script>
+  <script type="module" src="./scripts/map.js"></script>
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABACZfJz2mZbS7CvOx3sz8HH4p91LNQkE&callback=initMap&v=weekly"></script>
     <script src="./scripts/search.js"></script>
