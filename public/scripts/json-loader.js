@@ -127,7 +127,6 @@ function play() {
         }
         print_f();
     } else {
-        alert("A panda nearby");
         v = "pause_circle";
         document.getElementById("Rating").innerHTML = `01:11:11`;
     }
