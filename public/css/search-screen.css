@@ -13,6 +13,7 @@
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     justify-content: center;
+    z-index: 100;
 }
 
 
@@ -158,3 +159,5 @@
     justify-content: center;
     opacity: 0.8;
 }
+
+
