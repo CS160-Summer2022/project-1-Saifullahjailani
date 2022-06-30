@@ -53,7 +53,7 @@ input {
 
 
 
-.simple-nav-o{
+.compare .simple-nav-o{
     height: 50px;
     width: 100vw;
     background-color: white;
@@ -64,6 +64,7 @@ input {
     border-radius: 20%;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    z-index: 10000000;
     
 }
 
